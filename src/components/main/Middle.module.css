@@ -1,9 +1,0 @@
-.middle {
-    display: grid;
-    grid-template-columns: 60rem 60rem;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}

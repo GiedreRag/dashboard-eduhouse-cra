@@ -1,0 +1,20 @@
+.aside {
+    background-color: antiquewhite;
+    padding: 3rem 2.5rem;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.mainMeniu {
+    padding-top: 3rem;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.setting {
+    padding-top: 3rem;
+    text-transform: uppercase;
+    color: grey;
+}

@@ -1,3 +1,115 @@
 .main {
-
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        'header header header header'
+        'subHeader subHeader subHeader .'
+        'progressCards progressCards progressCards upgrade'
+        'categories mentors mentors mentors';
 }
+
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 2.5rem; 
+}
+
+.input {
+    background-color: aliceblue;
+    padding: 1.5rem 3rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    
+}
+
+.right {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+
+.headerMan {
+    height: 5rem;
+
+} 
+
+.subHeader {
+    grid-area: subHeader;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 2.5rem; 
+}
+
+.progressCards {
+    grid-area: progressCards;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 2.5rem; 
+}
+
+.progressCard {
+    background-color: lightcyan;
+    padding: 4rem 3rem;
+    border-radius: 3rem;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* gap: 3rem; */
+}
+
+.cardTop {
+    margin-bottom: 1rem;
+}
+
+.cardTitle {
+    margin-bottom: 1rem;
+}
+
+.cardSubTitle {
+    margin-bottom: 1rem;
+}
+
+.cardBottom {
+    margin-top: 1rem;
+}
+
+.upgrade {
+    grid-area: upgrade;
+    padding: 3rem 2.5rem 0 0; 
+}
+
+.upgradeCard {
+    background-color: lightgoldenrodyellow;
+    padding: 5.7rem 5rem;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.upgradeButton {
+    background-color: orange;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1em;
+}
+
+.upgradeButton:hover {
+    background-color: antiquewhite;
+}
+
+.categories {
+    grid-area: categories;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 2.5rem; 
+}
+
+.mentors {
+    grid-area: mentors;
+}
+
+

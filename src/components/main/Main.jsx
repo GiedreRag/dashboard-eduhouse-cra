@@ -1,15 +1,21 @@
-import { Header } from './Header';
 import style from './Main.module.css';
-import { Bottom } from './Bottom';
-import { Middle } from './Middle';
+import { Header } from './Header';
+import { SubHeader } from './SubHeader';
+import { ProgressCards } from './ProgressCards';
+import { Upgrade } from './Upgrade';
+import { Categories } from './Categories';
+import { Mentors } from './Mentors';
 
 
 export function Main() {
     return (
         <main className={style.main}>
-            <Header />
-            <Middle />
-            <Bottom />          
+            <Header />  
+            <SubHeader />
+            <ProgressCards />
+            <Upgrade />
+            <Categories />
+            <Mentors />               
         </main>
     );
 }
