@@ -1,6 +1,6 @@
 import style from './Main.module.css';
 
-export function Card({data: {img, header3, header4, explanation, progress}}) {
+export function Card({dataCards: {img, header3, header4, explanation, progress}}) {
     const date = 'Dec, 15, 2020';
 
     return (

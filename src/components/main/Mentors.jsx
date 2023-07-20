@@ -2,7 +2,7 @@ import { EachMentor } from './EachMentor';
 import style from './Main.module.css';
 
 export function Mentors() {
-    const data = [
+    const dataMentor = [
         {
             id: 1,
             img: 'mentor1.png',
@@ -46,7 +46,7 @@ export function Mentors() {
                 <p>View All</p>
             </header>
             <table className={style.eachMentor}>
-            { data.map(eachMentorObj => <EachMentor key={eachMentorObj.id} data={eachMentorObj}/>) }
+            { dataMentor.map(eachMentorObj => <EachMentor key={eachMentorObj.id} dataMentor={eachMentorObj}/>) }
             </table>
         </div>
     );

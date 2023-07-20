@@ -2,7 +2,7 @@ import { Card } from './Card';
 import style from './Main.module.css';
 
 export function ProgressCards() {
-    const data = [
+    const dataCards = [
         {
             id: 1,
             createdAt: 1234,
@@ -38,7 +38,7 @@ export function ProgressCards() {
     ]
     return (
         <div className={style.progressCards}>
-            { data.map(cardObj => <Card key={cardObj.id} data={cardObj} />) }
+            { dataCards.map(cardObj => <Card key={cardObj.id} dataCards={cardObj} />) }
         </div>
     );
 } 

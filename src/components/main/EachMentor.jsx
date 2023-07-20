@@ -3,7 +3,7 @@ import style from './Main.module.css';
 import { BiDotsVerticalRounded } from 'react-icons/bi';
 import { HiOutlineMail } from 'react-icons/hi';
 
-export function EachMentor({data: {img, name, title, courses}}) {
+export function EachMentor({dataMentor: {img, name, title, courses}}) {
     const [followerCount, setFollowerCount] = useState(0);
 
     const handleFollowButtonClick = () => {
