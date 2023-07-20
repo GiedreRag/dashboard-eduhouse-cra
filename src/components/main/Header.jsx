@@ -1,6 +1,5 @@
 import style from './Main.module.css';
 import { LuBellDot } from 'react-icons/lu';
-import headerMan from '../../img/header-photo.png';
 
 export function Header() {
     return (
@@ -8,9 +7,9 @@ export function Header() {
             <form className={style.search}>
                 <input className={style.input} placeholder='Search here' type="search" />
             </form>
-            <div className={style.right}>
+            <div className={style.headerRight}>
                 <LuBellDot size='2rem'/>
-                <img className={style.headerMan} src={headerMan} alt='user' />
+                <img className={style.userImg} src='./img/User.png' alt='user' />
             </div>
         </div>
     );

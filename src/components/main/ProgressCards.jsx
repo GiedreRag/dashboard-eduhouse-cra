@@ -5,34 +5,34 @@ export function ProgressCards() {
     const data = [
         {
             id: 1,
-            createdAt: 1650532562551,
-            image: <img src="/" alt="Icon" />,
+            createdAt: 1234,
+            img: 'progressIcon1.png',
             header3: 'App Design',
             header4: 'Learn App design from our expert trainer',
             explanation: 'Finally a comprehensive guide to using sketch for designing...',
-            progress: 'Progress bar...'
+            progress: 20
 
         },
 
         {
             id: 2,
-            createdAt: 1650532562551,
+            createdAt: 1234,
             header3: 'Web Design',
-            image: <img src="/" alt="Icon" />,
+            img: 'progressIcon2.png',
             header4: 'Learn App design from our expert trainer',
             explanation: 'Finally a comprehensive guide to using sketch for designing...',
-            progress: 'Progress bar...'
+            progress: 80
 
         },
 
         {
             id: 3,
-            createdAt: 1650532562551,
-            image: <img src="/" alt="Icon" />,
+            createdAt: 1234,
+            img: 'progressIcon3.png',
             header3: 'Dashboard',
             header4: 'Learn App design from our expert trainer',
             explanation: 'Finally a comprehensive guide to using sketch for designing...',
-            progress: 'Progress bar...'
+            progress: 50
 
         }
     ]
