@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dashboard-eduhouse-cra/static/css/main.dbb657fe.css",
+    "main.js": "/dashboard-eduhouse-cra/static/js/main.e48355e8.js",
+    "index.html": "/dashboard-eduhouse-cra/index.html",
+    "main.dbb657fe.css.map": "/dashboard-eduhouse-cra/static/css/main.dbb657fe.css.map",
+    "main.e48355e8.js.map": "/dashboard-eduhouse-cra/static/js/main.e48355e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbb657fe.css",
+    "static/js/main.e48355e8.js"
+  ]
+}
