@@ -9,7 +9,7 @@ export function Header() {
             </form>
             <div className={style.headerRight}>
                 <LuBellDot size='2rem'/>
-                <img className={style.userImg} src='./img/User.png' alt='user' />
+                <img className={style.userImg} src='./img/users/User1.png' alt='user' />
             </div>
         </div>
     );

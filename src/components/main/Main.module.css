@@ -141,14 +141,14 @@
 }
 
 .categoriesTitle {
-    font-size: 26px;
-    margin-bottom: 2rem;
+    font-size: 24px;
+    margin-bottom: 1rem;
 }
 
 .categoriesEachRow {
     width: 100%;
     border-collapse: separate;
-    border-spacing: 0 1rem;
+    border-spacing: 0 2rem;
 }
 
 .categoriesRowContent {

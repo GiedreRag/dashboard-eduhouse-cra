@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import style from './Main.module.css';
+import style from '../Main.module.css';
 import { BiDotsVerticalRounded } from 'react-icons/bi';
 import { HiOutlineMail } from 'react-icons/hi';
 
@@ -12,7 +12,7 @@ export function EachMentor({dataMentor: {img, name, title, courses}}) {
 
     return (
             <tr className={style.mentorRow}>
-                <td><img className={style.mentorImg} src={`./img/${img}`} alt="mentor" /></td>
+                <td><img className={style.mentorImg} src={`./img/mentors/${img}`} alt="mentor" /></td>
                 <td className={style.mentorName}>{name}</td>
                 <td className={style.title}>{title}</td>
                 <td className={style.courses}>{courses}</td>

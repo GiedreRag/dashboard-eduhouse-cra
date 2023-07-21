@@ -1,5 +1,5 @@
-import { Card } from './Card';
-import style from './Main.module.css';
+import { Card } from '../progressCards/Card';
+import style from '../Main.module.css';
 
 export function ProgressCards() {
     const dataCards = [
@@ -10,7 +10,8 @@ export function ProgressCards() {
             header3: 'App Design',
             header4: 'Learn App design from our expert trainer',
             explanation: 'Finally a comprehensive guide to using sketch for designing...',
-            progress: 20
+            progress: 20,
+            color: '#f4f2fe'
 
         },
 
@@ -21,7 +22,8 @@ export function ProgressCards() {
             img: 'progressIcon2.png',
             header4: 'Learn App design from our expert trainer',
             explanation: 'Finally a comprehensive guide to using sketch for designing...',
-            progress: 80
+            progress: 80,
+            color: '#fff2ed'
 
         },
 
@@ -32,7 +34,8 @@ export function ProgressCards() {
             header3: 'Dashboard',
             header4: 'Learn App design from our expert trainer',
             explanation: 'Finally a comprehensive guide to using sketch for designing...',
-            progress: 50
+            progress: 50,
+            color: '#ecfbff'
 
         }
     ]

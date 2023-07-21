@@ -1,13 +1,13 @@
-import style from './Main.module.css';
+import style from '../Main.module.css';
 
-export function Card({dataCards: {img, header3, header4, explanation, progress}}) {
+export function Card({dataCards: {img, header3, header4, explanation, progress, color}}) {
     const date = 'Dec, 15, 2020';
 
     return (
-        <article className={style.progressCard}>
+        <article className={style.progressCard} style={{ backgroundColor: color }}>
             <header className={style.cardTop}>
                 <p className={style.cardDate}>{date}</p>
-                <p><img className={style.cardIcon} src={`./img/${img}`} alt="mentor"/></p>
+                <p><img className={style.cardIcon} src={`./img/progress/${img}`} alt="mentor"/></p>
             </header>
             <h3 className={style.cardTitle}>{header3}</h3>
             <h4 className={style.cardSubTitle}>{header4}</h4>

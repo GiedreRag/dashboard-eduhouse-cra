@@ -1,5 +1,5 @@
-import { EachMentor } from './EachMentor';
-import style from './Main.module.css';
+import { EachMentor } from '../mentorsRows/EachMentor';
+import style from '../Main.module.css';
 
 export function Mentors() {
     const dataMentor = [

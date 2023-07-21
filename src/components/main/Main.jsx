@@ -1,9 +1,9 @@
 import style from './Main.module.css';
 import { Header } from './Header';
-import { ProgressCards } from './ProgressCards';
+import { ProgressCards } from './progressCards/ProgressCards';
 import { Upgrade } from './Upgrade';
-import { Categories } from './Categories';
-import { Mentors } from './Mentors';
+import { Categories } from './popularCategoriesRows/Categories';
+import { Mentors } from './mentorsRows/Mentors';
 
 
 export function Main() {
