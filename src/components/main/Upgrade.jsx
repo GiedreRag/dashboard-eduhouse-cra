@@ -4,7 +4,7 @@ export function Upgrade() {
     return (
         <div className={style.upgrade}>
             <div className={style.upgradeCard}>
-                <p>
+                <p className={style.upgradeText}>
                     You have 5 days left on your subscription
                 </p>
                 <button className={style.upgradeButton}>

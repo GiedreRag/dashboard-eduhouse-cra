@@ -25,9 +25,7 @@
     border-radius: 3rem;
     width: 40rem;
     border: none;
-    font-size: 1.1rem;
-    font-size: 20px;
-    
+    font-size: 1.3rem;    
 }
 
 .headerRight {
@@ -37,26 +35,23 @@
 }
 
 .userImg {
-    height: 6.5rem;
-
+    height: 7rem;
 } 
 
 .subHeader {
     grid-area: subHeader;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 1rem;
 }
 
 .subHeaderP {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .progressCards {
     grid-area: progressCards;
     display: flex;
-    flex-direction: row;
-    justify-content: stretch;
     gap: 2rem;
 }
 
@@ -67,24 +62,20 @@
     display: flex; 
     flex-direction: column; 
     gap: 2rem;
-    height: 100%;
-    width: 33%;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .cardTop {
     margin-bottom: 1rem;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .progressBar {
     width: 100%;
     background-color: palevioletred;
-    height: 0.5rem;
+    height: 0.7rem;
     border-radius: 0.25rem;
-    overflow: hidden;
     margin-bottom: 0.5rem;
 }
 
@@ -101,30 +92,31 @@
 
 .upgrade {
     grid-area: upgrade;
-    align-self: stretch;
 }
 
 .upgradeCard {
     background-color: #feefd0;
     border-radius: 3rem;
     height: 100%;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     gap: 3rem;
-    font-size: 20px;
+}
+
+.upgradeText {
+    font-size: 1.5rem;
 }
 
 .upgradeButton {
     background-color: #f9b311;
     border: none;
     border-radius: 0.5rem;
-    padding: 1rem;
-    width: 10rem;
-    font-size: 18px;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .upgradeButton:hover {
@@ -135,32 +127,27 @@
     grid-area: categories;
     padding: 2rem 3rem;
     border-radius: 3rem;
-    display: flex;
-    flex-direction: column;
     background-color: #eefcf0;
 }
 
 .categoriesTitle {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 
 .categoriesEachRow {
     width: 100%;
-    border-collapse: separate;
     border-spacing: 0 2rem;
 }
 
 .categoriesRowContent {
     background-color: white;
-    margin-bottom: 3rem;
 }
 
 .categoriesRowContent td {
-    padding: 1.5rem;
+    padding: 1.3rem 2rem;
     vertical-align: middle;
-    text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .categoriesRowContent td:first-child {
@@ -169,6 +156,16 @@
 
 .categoriesRowContent td:last-child {
     border-radius: 0 1.5rem 1.5rem 0;
+}
+
+.categoriesRowTitle {
+    margin-bottom: 0.5rem;
+    margin-right: 5rem;
+    font-weight: bold;
+}
+
+.categoriesIcon {
+    height: 4.5rem;
 }
 
 .mentors {
@@ -180,28 +177,25 @@
 
 .mentorsHeader {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1rem;
-    font-size: 20px;
+    font-size: 1.2rem;
 
 }
 
 .eachMentor {
     width: 100%;
-    border-collapse: separate;
     border-spacing: 0 2rem;
 }
 
 .mentorRow {
     background-color: white;
-    margin-bottom: 3rem;
 }
 
 .mentorRow td {
-    padding: 1.5rem;
+    padding: 0.5rem 1rem;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .mentorRow td:first-child {
@@ -212,23 +206,24 @@
     border-radius: 0 1.5rem 1.5rem 0;
 }
 
+.mentorImg {
+    height: 6rem;
+}
+
 .mentorName {
     font-weight: bold;
 }
 
 .followButton {
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
     width: 8rem;
     border-radius: 0.5rem;
     background-color: #f9b311;
     border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .followButton:hover {
     background-color: #c2b189;
 }
-
-.mentorImg {
-    height: 3rem;
-}
-
